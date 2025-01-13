@@ -88,7 +88,7 @@ nav div {
 }
 
 .band {
-  border: green 2px solid;
+  /* border: green 2px solid; */
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -96,7 +96,7 @@ nav div {
   height: 150px;
   align-self: flex-end;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: rgb(255 255 255 / 75%);
 }
 
@@ -109,11 +109,30 @@ nav div {
 
 #promos {
   margin: 0px;
+  /* border: red 2px solid; */
+}
+
+#promos button {
+  background-color: #ff7b00;
+  color: white;
+  font-size: 10px;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 2px;
+  border: none;
 }
 
 #legal {
+  /* border: yellow 2px solid; */
+  padding-left: 360px;
   font-size: 9px;
   text-align: start;
+  width: 100%;
+  margin: 7px;
+}
+
+#legal p {
+  margin: 0;
 }
 
 .beach-absolute {
@@ -121,7 +140,7 @@ nav div {
   position: absolute;
   width: 100%;
   height: 500px;
-  border: red 3px solid;
+  /* border: red 3px solid; */
   justify-content: center;
 }
 
