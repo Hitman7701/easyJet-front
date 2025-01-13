@@ -48,18 +48,89 @@ nav div {
   object-fit: cover;
 }
 
-#beach {
+.beach {
+  position: relative;
+}
+
+.booking {
+  display: flex;
   position: relative;
   border: black solid 3px;
 }
 
-.beach-absolute {
+.pub {
+  color: white;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.pub h1 {
+  font-size: 40px;
+}
+
+.pub span {
+  font-size: 40px;
+}
+
+.pub button {
+  background-color: #ff7b00;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px auto;
+  text-decoration: none;
+  border-radius: 2px;
+  align-self: flex-end;
+  border: none;
+}
+
+.band {
+  border: green 2px solid;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 255 255 / 75%);
+}
+
+.band > div {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  line-height: 5px;
+}
+
+#promos {
+  margin: 0px;
+}
+
+#legal {
+  font-size: 9px;
+  text-align: start;
+}
+
+.beach-absolute {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 500px;
   border: red 3px solid;
+  justify-content: center;
 }
 
 .beach-absolute > div {
-  border: green 3px solid;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+  height: calc(100% - 40px);
+  /* border: green 3px solid; */
 }
 
 /*wrapper*/

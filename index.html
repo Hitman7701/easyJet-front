@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="./assets/css/booking-style.css" />
+    <script
+      src="https://kit.fontawesome.com/faa7b0b9fb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -32,10 +37,126 @@
     </header>
     <main>
       <section class="beach">
-        <div id="beach">
+        <div class="booking">
           <img src="./assets/imgs/beach.jpg" alt="beach" />
           <div class="beach-absolute">
-            <div class="wrapper"></div>
+            <div class="wrapper">
+              <div class="menu-booking">
+                <div class="tabs">
+                  <div class="light-tab">Vols</div>
+                  <div class="dark-tab">Hôtels</div>
+                  <div class="dark-tab">Voitures</div>
+                </div>
+                <section class="booking-menu">
+                  <div class="checkbox">
+                    <input type="checkbox" id="checkbox" /><label for="checkbox"
+                      >Aller simple</label
+                    >
+                  </div>
+                  <div class="from-to">
+                    <div>
+                      <label
+                        >De :
+                        <input
+                          type="text"
+                          id="origine"
+                          name="nom de la ville de départ"
+                      /></label>
+                    </div>
+                    <div class="from-to-line"></div>
+                    <div>
+                      <label
+                        >A :
+                        <input
+                          type="text"
+                          id="destination"
+                          name="nom de la ville de destination"
+                      /></label>
+                    </div>
+                  </div>
+                  <div class="from-to">
+                    <p id="go-and-back">
+                      <i class="fa-regular fa-calendar-days"></i> Aller
+                    </p>
+                    <div class="from-to-line"></div>
+                    <p id="go-and-back2">
+                      <i class="fa-regular fa-calendar-days"></i> Retour
+                    </p>
+                  </div>
+                  <div class="menu">
+                    <div>
+                      Adultes (16+)
+                      <div class="number">
+                        <button class="plus-button">-</button><span>1</span
+                        ><button class="plus-button">+</button>
+                      </div>
+                    </div>
+                    <div>
+                      Enfants (2-15)
+                      <div class="number">
+                        <button class="-button">-</button><span>0</span
+                        ><button class="plus-button">+</button>
+                      </div>
+                    </div>
+                    <div>
+                      Bébés (<2)
+                      <div class="number">
+                        <button class="-button">-</button><span>0</span
+                        ><button class="plus-button">+</button>
+                      </div>
+                    </div>
+                  </div>
+                  <button id="flights-button">Afficher les vols ></button>
+                  <div class="infos">A propos de l'assistance spéciale ></div>
+                  <div class="infos">
+                    Nous compensons nos émissions carbone >
+                  </div>
+                </section>
+              </div>
+              <div class="pub">
+                <h1>NAGER. MANGER. DORMIR. RECOMMENCER</h1>
+                <p>
+                  Cet été, détendez-vous à la plage : Baléares, Sardaigne,
+                  Sicile... Vous avez le choix!
+                </p>
+                <p>à partir de <br /><span>29,75€</span></p>
+                <button>Réservez maintenant ></button>
+              </div>
+            </div>
+          </div>
+          <div class="band">
+            <div class="wrapper" id="promos">
+              <div>
+                <p>Lisbonne</p>
+                <p>à partir de Paris Charles de Gaulle</p>
+                <p>29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <p>Porto</p>
+                <p>à partir de Paris Charles de Gaulle</p>
+                <p>29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <p>Faro</p>
+                <p>à partir de Paris Charles de Gaulle</p>
+                <p>34,75€ mars 2024</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <p>Lisbonne</p>
+                <p>à partir de Paris Charles de Gaulle</p>
+                <p>29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+            </div>
+            <div id="legal">
+              <p>
+                Le prix indiqué est valable pour un aller simple, taxes
+                incluses, à disponibilité limitée
+              </p>
+            </div>
           </div>
         </div>
       </section>

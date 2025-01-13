@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+.booking-menu {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  font-size: 13px;
+  /* box-shadow: 0 0 5px; */
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+}
+
+.tabs {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 300px;
+  font-size: 13px;
+  border-radius: 5px 5px 0px 0px;
+  gap: 3px;
+}
+
+.light-tab,
+.dark-tab {
+  flex: 1;
+  text-align: center;
+  align-content: center;
+}
+
+.dark-tab {
+  background-color: black;
+  color: white;
+}
+
+.light-tab {
+  background-color: white;
+}
+
+.checkbox input {
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.from-to {
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.from-to-line {
+  width: 180px;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+
+.from-to input {
+  height: 20px;
+  border: none;
+}
+
+#go-and-back,
+#go-and-back2 {
+  line-height: 8px;
+  color: #ff6600;
+  font-weight: bold;
+  height: 20px;
+  margin: 5px;
+}
+
+.from-to label {
+  font-weight: bold;
+}
+
+.-button {
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  background-color: unset;
+}
+
+.plus-button {
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  color: #ff6600;
+  background-color: white;
+}
+
+.menu {
+  margin-bottom: 10px;
+}
+
+.menu div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#flights-button {
+  background-color: #ff6600;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+}
+
+.infos {
+  margin: 10px;
+  color: #ff6600;
+}
+
+i {
+  font-size: 20px;
+  font-weight: bold;
+}
