@@ -28,6 +28,11 @@ header #register-button {
   border-radius: 2px;
 }
 
+.shortcuts i {
+  color: white;
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -55,7 +60,7 @@ nav div {
 .booking {
   display: flex;
   position: relative;
-  border: black solid 3px;
+  /* border: black solid 3px;kk */
 }
 
 .pub {
@@ -124,11 +129,15 @@ nav div {
 
 #legal {
   /* border: yellow 2px solid; */
-  padding-left: 360px;
+  /* padding-left: 360px; */
   font-size: 9px;
   text-align: start;
   width: 100%;
   margin: 7px;
+  box-sizing: border-box;
+
+  width: 960px;
+  margin: 20px auto;
 }
 
 #legal p {

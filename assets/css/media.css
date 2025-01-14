@@ -1,0 +1,12 @@
+@media (max-width: 1115px) {
+  .shortcuts a {
+    display: none;
+  }
+
+  .shortcuts i {
+    display: contents;
+  }
+  #promos > div:last-child {
+    display: none;
+  }
+}
