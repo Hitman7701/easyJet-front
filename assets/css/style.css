@@ -28,6 +28,11 @@ header #register-button {
   border-radius: 2px;
 }
 
+.connect i {
+  color: white;
+  display: none;
+}
+
 .shortcuts i {
   color: white;
   display: none;
@@ -164,7 +169,7 @@ nav div {
 /*wrapper*/
 
 .wrapper {
-  width: 960px;
+  max-width: 960px;
   margin: 20px auto;
   /*padding-bottom: 20px;*/
 }

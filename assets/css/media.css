@@ -9,4 +9,34 @@
   #promos > div:last-child {
     display: none;
   }
+
+  #promos {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  nav > div > a {
+    display: none;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect i {
+    display: contents;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  nav div {
+    gap: 5px;
+  }
+
+  #flag {
+    display: none;
+  }
 }
